@@ -14,6 +14,7 @@ def main():
             try:
                 ans=int(input(f"{x} + {y} = "))
                 if ans==x+y:
+                    chance=3
                     score+=1
                     break
                 if ans!=x+y:
