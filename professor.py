@@ -23,6 +23,7 @@ def main():
                 if chance==0:
                     ans=False
                     print(f"{x} + {y} =",x+y)
+                    chance=3
                     break
 
             except:
